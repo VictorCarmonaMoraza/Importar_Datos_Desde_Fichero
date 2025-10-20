@@ -1,0 +1,51 @@
+# === ENTORNOS VIRTUALES ===
+.venv/
+venv/
+env/
+ENV/
+
+# === ARCHIVOS DE CONFIGURACIÓN LOCAL ===
+.idea/
+.vscode/
+*.code-workspace
+
+# === ARCHIVOS DE PYTHON COMPILADOS ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === ARCHIVOS DE SISTEMA ===
+.DS_Store
+Thumbs.db
+
+# === ARCHIVOS DE LOG / CACHE ===
+*.log
+*.cache
+*.tmp
+
+# === ARCHIVOS DE BASE DE DATOS LOCALES ===
+*.sqlite3
+*.db
+
+# === ARCHIVOS DE ENTORNO ===
+.env
+.env.local
+.env.*.local
+
+# === LIBRERÍAS Y DEPENDENCIAS DESCARGADAS ===
+/site-packages/
+/__pypackages__/
+
+# === BACKUPS O EXPORTACIONES ===
+*.bak
+*.zip
+*.tar
+*.gz
+
+# === DATOS TEMPORALES O FICHEROS DE EJEMPLO ===
+/file/*.csv
+/notebooks/.ipynb_checkpoints
+
+# === CONFIGURACIONES ESPECÍFICAS DE PYCHARM ===
+*.iml
+out/
